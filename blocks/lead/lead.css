@@ -1,0 +1,20 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    margin: 56px auto 0;
+    max-width: 984px;
+    outline: 1px solid red;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        margin-top: 48px;
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
