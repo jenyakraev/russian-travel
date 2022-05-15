@@ -1,0 +1,14 @@
+.place__link {
+    margin: 12px 0 0;
+    display: block;
+    color: white;
+
+    font-size: 18px;
+    line-height: 122%;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.place__link:hover {
+    color: #DADADA;
+}

@@ -1,0 +1,9 @@
+.place__parahraphs {
+
+}
+
+@media screen and (max-width: 767px) {
+    .place__parahraphs {
+        padding: 0 16px;
+    }
+}
