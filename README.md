@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-## Описание проекта и его функциональности
+## Описание проекта
 
 Здесь рассказывает о путешествиях по России.
 
@@ -10,4 +10,4 @@ HTML, CSS
 
 ## Ссылка на GitHub Pages
 
-(https://jenyakraev.github.io/russian-travel/)
+[https://jenyakraev.github.io/russian-travel/]
