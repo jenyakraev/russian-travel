@@ -16,8 +16,8 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/logo.svg" alt="Логотип">
-            <p class="header__lang-link header__lang-link_underline_enabled">Ru</p>
-            <p class="header__lang-link">En</p>
+            <a class="header__lang-link header__lang-link_underline_enabled link" href="#">Ru</a>
+            <a class="header__lang-link link" href="#">En</a>
         </header>
         <main class="content">
             <section class="lead">
@@ -38,13 +38,13 @@
                     усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
                     стране. Мы выбрали и описали некоторые интересные места, достойные
                     вашего отпуска.</p>
-                <p class="intro__list">
-                    Часовых поясов 11<br>
-                    Объектов природного наследия ЮНЕСКО 12<br>
-                    Объектов культурного наследия ЮНЕСКО 16<br>
-                    Природных заповедников 105<br>
-                    Аэропортов 241
-                </p>
+                    <ul class="intro__list">
+                        <li>Часовых поясов <span class="intro__list_font-weight_normal">11</span></li>
+                        <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_font-weight_normal">12</span></li>
+                        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_font-weight_normal">16</span></li>
+                        <li>Природных заповедников <span class="intro__list_font-weight_normal">105</span></li>
+                        <li>Аэропортов <span class="intro__list_font-weight_normal">241</span></li>
+                    </ul>
             </section>
             <section class="photo-grid">
                 <img class="photo-grid__item" src="./images/intro__item-1.jpg" alt="Окно в поезде">
@@ -65,7 +65,7 @@
                     <h2 class="place__title">Куршская коса</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+                        <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                     </div>
                     <img class="place__image" src="./images/place__image-1.jpg" alt="Курской залив">
                     <div class="place__paragraphs">
@@ -86,7 +86,8 @@
                     <h2 class="place__title">Кольский</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                        <a class="place__link link"
+                            href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                             target="_blank">National Geographic</a>
                     </div>
                     <img class="place__image" src="./images/place__image-2.jpg" alt="Ледник">
@@ -107,7 +108,8 @@
                     <h2 class="place__title">Алтай</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                        <a class="place__link link"
+                            href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                             target="_blank">Facebook</a>
                     </div>
                     <img class="place__image" src="./images/place__image-3.jpg" alt="Ноутбук на фоне леса">
@@ -132,7 +134,7 @@
                     <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://vk.com/baikalmile"
+                        <a class="place__link link" href="https://vk.com/baikalmile"
                             target="_blank">https://vk.com/baikalmile</a>
                     </div>
                     <img class="place__image" src="./images/place__image-4.jpg" alt="Лед">
@@ -154,7 +156,7 @@
                     <h2 class="place__title">Карелия</h2>
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru</a>
+                        <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru</a>
                     </div>
                     <img class="place__image" src="./images/place__image-5.jpg" alt="Озеро в лесу">
                     <div class="place__paragraphs">
@@ -182,11 +184,11 @@
             </section>
         </main>
         <footer class="footer">
-            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карта</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+            <a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карта</a>
+            <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+            <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+            <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+            <a class="footer__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
             <p class="footer__copyright">© 2022. Краев Евгений</p>
         </footer>
     </div>
